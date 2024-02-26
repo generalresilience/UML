@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-02-26T19:51:05.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4DsIMRFCOFrbQ6gjXVS_" version="23.1.5" type="github">
+  <diagram name="Stránka-1" id="thwJlbIBvo20m_U5-7X4">
+    <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IScCJARQVcWpQ1xxE2H1-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-4" value="&lt;br&gt;UC1 Volba měny" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="340" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-8" value="&lt;br&gt;UC2 stahnout kurz ručně" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="340" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-11" value="Stahnutí kurzu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="jtTsnabZLGvJDmKOrkvf-4" target="jtTsnabZLGvJDmKOrkvf-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="jtTsnabZLGvJDmKOrkvf-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="jtTsnabZLGvJDmKOrkvf-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="jtTsnabZLGvJDmKOrkvf-21" target="jtTsnabZLGvJDmKOrkvf-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-21" value="U4 zadat hodnotu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="710" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-26" value="included" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="560.0010602720545" y="400.0028744082674" as="geometry">
+            <mxPoint x="-32" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-29" value="U5 Přepočet do jiné měny" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtTsnabZLGvJDmKOrkvf-31" value="included" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="550.0012497265728" y="630.0031321866818" as="geometry">
+            <mxPoint x="-38" y="79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
